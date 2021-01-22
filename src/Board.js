@@ -16,7 +16,7 @@ export default function Board() {
     const squareCopy = squares.slice();
     squareCopy[i] = xIsNext ? 'X' : 'O';
     setSquares(squareCopy);
-    setWinner(calculateWinner(squareCopy));
+    setWin\\\\\\\\ner(calculateWinner(squareCopy));
     setXIsNext(!xIsNext);
   }
 
