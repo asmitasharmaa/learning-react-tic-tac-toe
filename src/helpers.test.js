@@ -1,7 +1,7 @@
 import { calculateWinner } from './helpers';
 
 test('2 + 2 should return 4', () => {
-    expect(2 + 2).toBe(4); // this test fails!
+    expect(2 + 2).toBe(4); 
   });
 
 
@@ -27,7 +27,7 @@ test('2 + 2 should return 4', () => {
     expect(winner).toBe('O');
   });
 
-  test('should return null as the winner if no one wins', () => {
+  test('should return null as the winner when no one wins', () => {
     // Arrange the test
     const squares = ['O', 'X', null, 'X', null, 'O', 'O', null, 'X'];
     
